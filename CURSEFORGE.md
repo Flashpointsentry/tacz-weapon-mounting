@@ -21,7 +21,7 @@ Server operators control it in-game:
 - `/bipod attachment addheld` (any gun with that attachment installed counts as having a bipod)
 - `/bipod list` · `/bipod reload`
 
-The M249, RPK and FN Evolys have bipods by default. Everything else is configurable per world.
+Every TACZ default gun with a bipod on its model has one by default: the M249, RPK, FN Evolys, PKM, HCAR, Mk 14, SCAR Mk20, SPR15HB, AI AWP, MRAD, M95, M107 and HM50B. Everything else is configurable per world.
 
 ## Requirements
 - Forge 1.20.1 and **[TaCZ] Timeless and Classics Zero** (tested on 1.1.8-hotfix)

@@ -3,7 +3,7 @@ Specification-Title: taczbipod
 Specification-Vendor: Flashpointsentry
 Specification-Version: 1
 Implementation-Title: tacz-bipod
-Implementation-Version: 1.12
+Implementation-Version: 1.13
 Implementation-Vendor: Flashpointsentry
 MixinConfigs: taczbipod.mixins.json
 

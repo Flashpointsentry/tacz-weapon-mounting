@@ -4,7 +4,7 @@ license="GPL-3.0"
 
 [[mods]]
 modId="taczbipod"
-version="1.12"
+version="1.13"
 displayName="TACZ Bipod"
 authors="Flashpointsentry"
 description='''Mount TACZ guns on blocks, fences, wall corners and the ground for steadier fire.'''

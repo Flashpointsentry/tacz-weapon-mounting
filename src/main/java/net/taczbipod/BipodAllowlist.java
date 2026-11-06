@@ -31,6 +31,16 @@ public final class BipodAllowlist {
     private static final Set<ResourceLocation> ATTACHMENTS = new TreeSet<>();
     private static boolean loaded = false;
 
+    /** Written to a new allowed_guns.json. Existing files are never changed. */
+    private static final String[] DEFAULT_BIPOD_GUNS = {
+            // machine guns
+            "m249", "rpk", "fn_evolys", "pkm", "hcar",
+            // marksman rifles
+            "mk14", "scar_mk20", "spr15hb",
+            // sniper / anti-materiel rifles
+            "ai_awp", "mrad", "m95", "m107", "hm50b"
+    };
+
     private BipodAllowlist() {}
 
     private static Path file() {
@@ -82,9 +92,8 @@ public final class BipodAllowlist {
         ATTACHMENTS.clear();
         Path path = file();
         if (!Files.exists(path)) {
-            GUNS.add(new ResourceLocation("tacz", "m249"));
-            GUNS.add(new ResourceLocation("tacz", "rpk"));
-            GUNS.add(new ResourceLocation("tacz", "fn_evolys"));
+            // TACZ default-pack guns with a bipod on their model
+            for (String id : DEFAULT_BIPOD_GUNS) GUNS.add(new ResourceLocation("tacz", id));
             save();
             return;
         }

@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.13
+- Default bipod list now includes every TACZ default-pack gun with a bipod on its model: added PKM, HCAR, Mk 14, SCAR Mk20, SPR15HB, AI AWP, MRAD, M95, M107 and HM50B (alongside M249, RPK and FN Evolys)
+- Only affects new worlds/servers: an existing `config/taczbipod/allowed_guns.json` is left as-is (add them with `/bipod add`, or delete the file to regenerate it)
+
+
 ## 1.12
 - **Move to dismount:** pressing a movement key or sprint stands you up, like Call of Duty. Keys already held when you mount are ignored until released. Prone players keep crawling. Client setting `moveToDismount`
 - **Corner lean:** corner mounts tilt your first-person view out toward the open side (8° by default, client setting `cornerLeanDegrees`, 0 = off). Visual only

@@ -42,7 +42,8 @@ covered, you get pushed away, stop crawling (prone), or change dimension.
 These lists decide which guns have a bipod: a gun counts if it's on the gun list **or** has a listed
 attachment installed (built-in attachments count too). Every gun can use corners regardless
 (`corner.anyGun` to change that). Both lists live in `config/taczbipod/allowed_guns.json`; the gun list starts
-with `tacz:m249`, `tacz:rpk`, `tacz:fn_evolys` and the attachment list starts empty. Changes sync to everyone online immediately.
+with every TACZ default-pack gun that has a bipod on its model (M249, RPK, FN Evolys, PKM, HCAR,
+Mk 14, SCAR Mk20, SPR15HB, AI AWP, MRAD, M95, M107, HM50B) and the attachment list starts empty. Changes sync to everyone online immediately.
 
 Per-world settings live in `serverconfig/taczbipod-server.toml`, split into `general`
 (deploy time, fences/walls on/off), `wall`, `corner` and `prone` sections. Every number in the table
@@ -61,6 +62,6 @@ Everything needed is included. You need Java 17 or newer installed (Java 21 is f
 - **Mac/Linux:** run `./gradlew build`
 
 The first build takes several minutes because it downloads Gradle, Minecraft, Forge and TACZ.
-The finished mod is `build/libs/taczbipod-1.12.jar`. Install it on **both** the server and every client.
+The finished mod is `build/libs/taczbipod-1.13.jar`. Install it on **both** the server and every client.
 
 Or open the folder in IntelliJ IDEA, let it import, and run the `build` task from the Gradle panel.
