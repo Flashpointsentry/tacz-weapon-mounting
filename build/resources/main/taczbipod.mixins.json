@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.taczbipod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "taczbipod.refmap.json",
+  "mixins": [
+    "common.ModernKineticGunScriptAPIMixin"
+  ],
+  "client": [
+    "client.CameraSetupEventMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

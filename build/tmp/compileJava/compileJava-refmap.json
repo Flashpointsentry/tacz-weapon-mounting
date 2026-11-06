@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "net/taczbipod/mixin/client/CameraSetupEventMixin": {
+      "Lnet/minecraft/client/player/LocalPlayer;getPose()Lnet/minecraft/world/entity/Pose;": "Lnet/minecraft/client/player/LocalPlayer;m_20089_()Lnet/minecraft/world/entity/Pose;"
+    }
+  },
+  "data": {
+    "searge": {
+      "net/taczbipod/mixin/client/CameraSetupEventMixin": {
+        "Lnet/minecraft/client/player/LocalPlayer;getPose()Lnet/minecraft/world/entity/Pose;": "Lnet/minecraft/client/player/LocalPlayer;m_20089_()Lnet/minecraft/world/entity/Pose;"
+      }
+    }
+  }
+}

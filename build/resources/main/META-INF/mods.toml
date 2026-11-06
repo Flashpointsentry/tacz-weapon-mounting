@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GPL-3.0"
+
+[[mods]]
+modId="taczbipod"
+version="1.12"
+displayName="TACZ Bipod"
+authors="Flashpointsentry"
+description='''Mount TACZ guns on blocks, fences, wall corners and the ground for steadier fire.'''
+
+[[dependencies.taczbipod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.taczbipod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.taczbipod]]
+    modId="tacz"
+    mandatory=true
+    versionRange="[1.1.8,)"
+    ordering="AFTER"
+    side="BOTH"

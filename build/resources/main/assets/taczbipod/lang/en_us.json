@@ -1,0 +1,19 @@
+{
+  "key.categories.taczbipod": "TACZ Bipod",
+  "key.taczbipod.toggle_brace": "Toggle Brace",
+
+  "hud.taczbipod.can_brace": "Hold [%s] to brace",
+  "hud.taczbipod.can_brace.both": "Hold [%s] or press [%s] to brace",
+  "hud.taczbipod.can_deploy": "Hold [%s] to deploy bipod",
+  "hud.taczbipod.can_deploy.both": "Hold [%s] or press [%s] to deploy bipod",
+
+  "hud.taczbipod.settling.wall": "Bracing...",
+  "hud.taczbipod.settling.corner": "Bracing on corner...",
+  "hud.taczbipod.settling.prone": "Deploying bipod...",
+
+  "hud.taczbipod.stop.aim": "release [%s]",
+  "hud.taczbipod.stop.toggle": "press [%s]",
+  "hud.taczbipod.braced.wall": "Braced • %s to stand",
+  "hud.taczbipod.braced.corner": "Braced on corner • %s to stand",
+  "hud.taczbipod.braced.prone": "Bipod deployed • %s to fold"
+}
